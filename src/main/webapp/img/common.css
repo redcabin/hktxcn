@@ -1,0 +1,148 @@
+/*
+ * create by wyc 2017/5/15
+ * 此库为公共样式
+ */
+
+/*导航*/
+.navbar-search{display: block;width: 42px;height: 32px;float: right;margin-right: 15px;margin-top:13px;margin-bottom: 8px;}
+.navbar-search img{width: 22px;height: 22px;margin-top: 4px;}
+.navbar-logo{display:inline-block;margin: 0 auto;margin-top: 8px;margin-bottom: 8px;vertical-align: middle;}
+.navbar-logo img{width: 63px;height: 40px;}
+.navbar-act a{border-top:4px solid #00b0f0!important;}
+@media only screen and (min-width:769px) {
+	.navbar-search{display: none;}
+	.navbar-logo{display: none;}
+}
+@media only screen and (max-width:768px ) {
+	  .nav-center{text-align: center;}
+}
+@media only screen and (max-width:768px) {
+	  .navbar-brand{display: none;}
+}
+/*导航结束*/
+
+
+/*侧边栏*/
+.JG-com-side{position: absolute;top:0px;height: 100%;width: 60px;z-index:999;background: url(../images/fr-side-1_01.png) no-repeat; background-size:cover;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/fr-side-1_01.png", sizingMethod=scale);}
+.JG-com-side-m{display: table-cell;vertical-align: middle;}
+.JG-com-side a{display:inline-block;width: 60px;height: 60px;border-top:1px solid #5a6b7f;text-decoration: none;}
+.JG-com-side a.icon-logo{background: url(../images/icon-logo.png) no-repeat center;}
+.JG-com-side a.icon-pro{background: url(../images/icon-pro.png) no-repeat center;}
+.JG-com-side a.icon-server{background: url(../images/icon-server.png) no-repeat center;}
+.JG-com-side a.icon-new{background: url(../images/icon-new.png) no-repeat center;}
+.JG-com-side a.icon-com{background: url(../images/icon-com.png) no-repeat center;border-bottom: 1px solid #5A6B7F;}
+.JG-com-side a.side-active-logo{background: url(../images/icon-logo-2.png) no-repeat center;background-color: #3ba8fd!important;}
+.JG-com-side a.side-active-logo span{display: inline-block;height: 60px;width: 133px;text-align:center;margin-left: 60px;background-color: #00B0F0;line-height: 59px;color: #FFFFFF;border-top: 1px solid transparent;border-bottom: 1px solid #00B0F0;}
+.JG-com-side a.side-active-pro{background: url(../images/icon-pro-2.png) no-repeat center;background-color: #3ba8fd!important;}
+.JG-com-side a.side-active-pro span{display: inline-block;height: 60px;width: 133px;text-align:center;margin-left: 60px;background-color: #00B0F0;line-height: 59px;color: #FFFFFF;border-top: 1px solid transparent;border-bottom: 1px solid #00B0F0;}
+.JG-com-side a.side-active-server{background: url(../images/icon-server-2.png) no-repeat center;background-color: #3ba8fd!important;}
+.JG-com-side a.side-active-server span{display: inline-block;height: 60px;width: 133px;text-align:center;margin-left: 60px;background-color: #00B0F0;line-height: 59px;color: #FFFFFF;border-top: 1px solid transparent;border-bottom: 1px solid #00B0F0;}
+.JG-com-side a.side-active-new{background: url(../images/icon-new-2.png) no-repeat center;background-color: #3ba8fd!important;}
+.JG-com-side a.side-active-new span{display: inline-block;height: 60px;width: 133px;text-align:center;margin-left: 60px;background-color: #00B0F0;line-height: 59px;color: #FFFFFF;border-top: 1px solid transparent;border-bottom: 1px solid #00B0F0;}
+.JG-com-side a.side-active-com{background: url(../images/icon-com-2.png) no-repeat center;background-color: #3ba8fd!important;}
+.JG-com-side a.side-active-com span{display: inline-block;height: 60px;width: 133px;text-align:center;margin-left: 60px;background-color: #00B0F0;line-height: 59px;color: #FFFFFF;border-top: 1px solid transparent;border-bottom: 1px solid #00B0F0;}
+@media only screen and (max-width:768px ) {
+	  .JG-com-side{display: none;}
+}
+
+/*侧边栏结束*/
+
+/*侧边栏右边*/
+
+.page-left-tips {position: absolute;top: 91px;right: 31px;z-index: 1004;display: none;}
+
+.page-left-tips .side-icon li{width: 36px;height: 36px;position: relative;}
+.page-left-tips li a{width: 36px;height: 36px;margin-top: 2px;text-align: center;line-height: 36px;}
+.page-left-tips .side-bg-gr li a{background:url(../images/right-side-gr_03.png) no-repeat center;}
+.page-left-tips .side-icon li a{display: block;width: 36px;height: 36px;}
+.page-left-tips .side-bg-bl li a{background:url(../images/right-side-b_03.png) no-repeat center;}
+.JG-com-sideR-fixed{position: fixed;}
+@media only screen and (min-width:769px) {
+	.page-left-tips {display: block;}
+}
+
+.side-icon-w-bg1{width: 265px;height: 37px;background: url(../images/side-r-img_03.png) no-repeat;left: -275px;top: 0px;line-height: 37px;color: #6ad8fc;display: none;}
+.side-icon-w-bg2{width: 172px;height: 172px;background: url(../images/side-img-wx_03.png) no-repeat;background-size: 100%;left: -182px;top: -60px;display: none;color: #6ad8fc;}
+.side-icon-w-bg2 img{width: 160px;height: 160px;}
+.side-icon-w-bg3{width: 203px;height: 36px;background: url(../images/side-r-img_07.png) no-repeat;left: -213px;top: 0px;display: none;line-height: 36px;display: none;color: #6ad8fc;}
+.side-icon-w-bg4{width: 121px;height: 36px;background: url(../images/side-r-img_11.png) no-repeat;left: -131px;top:0px;line-height: 36px;display: none;color: #6ad8fc;}
+
+.side-icon-b-bg1{width: 265px;height: 37px;background: url(../images/side-r-img_13.png) no-repeat;left: -275px;top: 0px;line-height: 37px;color: #FFFFFF;display: none;}
+.side-icon-b-bg2{width: 172px;height: 172px;background: url(../images/side-img-wx_03.png) no-repeat;background-size: 100%;left: -182px;top: -60px;display: none;color: #FFFFFF;}
+.side-icon-b-bg2 img{width: 160px;height: 160px;}
+.side-icon-b-bg3{width: 203px;height: 36px;background: url(../images/side-r-img_17.png) no-repeat;left: -213px;top: 0px;display: none;line-height: 36px;display: none;color: #FFFFFF;}
+.side-icon-b-bg4{width: 121px;height: 36px;background: url(../images/side-r-img_19.png) no-repeat;left: -131px;top:0px;line-height: 36px;display: none;color: #FFFFFF;}
+
+.side-icon-ifn {position: absolute;text-align: center;}
+.side-icon-ifn .inputSearch{width: 265px;height: 37px;border: none;background-color: transparent;padding-left: 10px;}
+/*侧边栏右边结束*/
+
+/*鼠标*/
+.JG-com-shu{width: 100%;position: absolute;z-index: 1005;height: 40px;text-align: center;line-height: 55px;}
+.shu-b{bottom: 0px;background: url(../images/baise.png) no-repeat center;}
+.shu-t{top: 0px;line-height: 0px;}
+.JG-com-shu-bg{background: url(../images/huise.png) no-repeat center;}
+@media only screen and (max-width:768px) {
+	.JG-com-shu{display: none;}
+}
+/*鼠标结束*/
+
+/*侧边导航*/
+
+@media only screen and (max-width:768px) {
+	.language-en{display: block;padding-bottom: 4%;padding-top: 4%;border-bottom: 1px solid #6b7a8c;}
+	 .JG-side-left{height: 100%;}
+	  .JG-side-left .nav {width:67%;background-color: #54667a;margin: 0px -15px;height: 100%;}
+	  .navbar-side-left .caret{float: right;}
+}
+@media only screen and (min-width:769px) {
+	.language-en{display: none!important;}
+}
+/*侧边导航结束*/
+
+/*底部*/
+
+.JG-footer-black{color: #FFFFFF;background-color: #54667a;}
+.JG-footer-white{color: #000000;background-color: #FFFFFF;}
+.JG-footer{position: absolute;width: 100%;bottom: 0px;}
+.JG-footer-pc{text-align: center;padding-top: 5px;padding-bottom: 5px}
+.JG-footer-ph{width: 100%;display: none;}
+.JG-footer-ph .JG-footer-ph-l{width: 50%;display: inline-block;vertical-align: middle;padding: 4% 2%;}
+.JG-footer-ph .JG-footer-ph-r{width: 47%;display: inline-block;vertical-align: middle;text-align: center;padding: 4% 2%;}
+.JG-footer-ph .JG-footer-ph-r .JG-footer-icon a{display: inline-block;width: 20%;margin-left: 2%;}
+.JG-footer-ph .JG-footer-ph-r .JG-footer-icon img{width:100%;}
+.JG-footer-tel img{width: 14%;}
+.JG-footer-tel{margin-top: 2%;}
+@media only screen and (max-width:768px) {
+	.JG-footer-pc{display: none;}
+	.JG-footer-ph{display: block;}
+}
+
+/*底部结束*/
+
+/*手机回滚到首屏*/
+.JG-com-ph-fix{display: none;position: fixed;width: 40px;height:40px;right: 0px;z-index: 1007;background-color: #007AFF;text-align: center;bottom: 30px;line-height: 40px;}
+.JG-com-ph-fix img{width: 30px;height: 20px;}
+@media only screen and (max-width:768px ) {
+	.JG-com-ph-fix{display: block;}
+}
+/*手机回滚到首屏结束*/
+
+/*logo*/ 
+.JG-com-logo{width: 43px;height: 17px;position: absolute;top: 17px;left: 15px;}
+@media only screen and (max-width:768px ) {
+	.JG-com-logo{display: none;}
+}
+/*logo结束*/
+
+/*默认按钮*/
+.btn-com-bg{display: block;width: 170px;height: 70px;background: url(../images/fr-bn-a_03.png) center no-repeat;color: #FFFFFF;line-height: 50px;text-align: center;}
+/*默认按钮结束*/
+
+
+/*banner*/
+
+.JG-fw-banner{width: 100%;}
+.JG-fw-banner a{cursor: pointer;}
+.JG-fw-banner a>img{width: 100%;}
+/*banner结束*/

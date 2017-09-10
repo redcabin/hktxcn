@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+
+
+<script type="text/javascript">
+    $(function(){
+
+        var system = {
+            win: false,
+            mac: false,
+            xll: false,
+            ipad:false
+        };
+
+        //检测平台
+        var p = navigator.platform;
+
+        system.win = p.indexOf("Win") == 0;
+        system.mac = p.indexOf("Mac") == 0;
+        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+        system.ipad = (navigator.userAgent.match(/iPad/i) != null)?true:false;
+
+        if (system.win || system.mac || system.xll ||system.ipad) {
+                alert("pc")
+        } else {
+            alert("mobile")
+        }
+
+    })
+</script>
+
+<!--<div class="bdsharebuttonbox" data-tag="share_1" style="display: none">-->
+    <!--<a class="bds_weixin" data-cmd="weixin"></a>-->
+    <!--<a class="bds_sqq" data-cmd="sqq"></a>-->
+    <!--<a class="bds_tqq" data-cmd="tqq" href="#"></a>-->
+    <!--<a class="bds_tsina" data-cmd="tsina"></a>-->
+<!--</div>-->
+<script>
+    window._bd_share_config = {
+        common : {
+            bdText : '武汉汇科天下科技有限公司',
+            bdDesc : 'Atlassian产品代理及周边服务',
+            bdUrl : 'http://www.hktxcn.com',
+            bdPic : '/images/slogo.png'
+        },
+        share : [{
+            "bdSize" : 4
+        }],
+        slide : [{
+            bdImg : 4,
+            bdPos : "right",
+            bdTop : 200
+        }],
+        image : [{
+            viewType : 'list',
+            viewPos : 'top',
+            viewColor : 'black',
+            viewSize : '4',
+            viewList : ['weixin','sqq','tqq','tsina']
+        }],
+        selectShare : [{
+            "bdselectMiniList" : ['weixin','sqq','tqq','tsina']
+        }]
+    }
+    with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+<!--<script type="text/javascript" src="http://gears.hktxcn.com/plugins/servlet/statisticsServlet"/>-->
+</body>
+</html>
